@@ -65,7 +65,7 @@ def weibologin(username,password):
     resp = session.get(url).content
     lg = re.findall('<meta content="(.*?)，',resp)[0]
     print lg
-    if lg =='SpringSkyYz':
+    if lg =='XXXX':
         print 'login success!'
     else:
         print 'login fall!'
@@ -128,7 +128,7 @@ def download(num):
 
 
 if __name__=='__main__':
-    weibologin('18810207008','sky123')
+    weibologin('XXXXXX','XXXXX')
     for i in range(1,445):
         download(str(i))
         print 'this page is end!:%s' %str(i)
