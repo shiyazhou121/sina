@@ -81,4 +81,4 @@ def weibologin(username,password):
     else:
         print 'login fall!'
 if __name__ =='__main__':
-    weibologin('18810207008','sky123')
+    weibologin('XXXXXXXX','XXXXXXX')
