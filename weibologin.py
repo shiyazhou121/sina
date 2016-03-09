@@ -66,7 +66,7 @@ def weibologin(username,password):
     resp = session.get(url).content
     lg = re.findall('<meta content="(.*?)，',resp)[0]
     print lg
-    if lg =='SpringSkyYz':
+    if lg =='XXXXXX':
         print 'login success!'
     else:
         print 'login fall!'
@@ -83,4 +83,4 @@ def get_total(url):
     return html[start:end+1]
 
 if __name__ =='__main__':
-    weibologin('18810207008','sky123')
+    weibologin('XXXX','XXXXX')
