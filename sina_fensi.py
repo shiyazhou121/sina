@@ -65,7 +65,7 @@ def weibologin(username,password):
     resp = session.get(url).content
     lg = re.findall('<meta content="(.*?)，',resp)[0]
     print lg
-    if lg =='SpringSkyYz':
+    if lg =='XXXXXX':
         print 'login success!'
     else:
         print 'login fall!'
@@ -89,7 +89,7 @@ def down(data,name):
 
 
 if __name__ =='__main__':
-    weibologin('18810207008','sky123')
+    weibologin('XXXXXX','XXXXX')
     f = open('sina_fensi_error.txt','r').readlines()
     for each in f:
         try:
