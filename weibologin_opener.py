@@ -76,7 +76,7 @@ def weibologin(username,password):
     resp = opener.open(url).read()
     lg = re.findall('<meta content="(.*?)，',resp)[0]
     print lg
-    if lg =='SpringSkyYz':
+    if lg =='XXXXXX':
         print 'login success!'
     else:
         print 'login fall!'
